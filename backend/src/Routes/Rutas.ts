@@ -9,6 +9,8 @@ class IndexRoutes {
 
     config(): void {
         this.router.get('/', consultasController.index);
+        this.router.get('/mundohola', consultasController.holamundo);
+        this.router.get('/ejemplo', consultasController.getuser);
     }
 }
 
