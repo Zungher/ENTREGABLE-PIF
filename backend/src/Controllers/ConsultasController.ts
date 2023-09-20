@@ -14,3 +14,5 @@ class ConsultasController {
         res.json({ "Controlador": 'Funciona la API' });   
     }
 }
+
+export const consultasController = new ConsultasController();
